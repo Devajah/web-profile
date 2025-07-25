@@ -105,6 +105,8 @@ a {
 	height: auto;
 	padding: 10px;
 	max-width: 500px;
+	background-image: url('fotogweh.jpg');
+	transition: background-image 0.3s ease;
 }
 
 .img-foto:hover {
