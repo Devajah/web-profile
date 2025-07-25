@@ -2,13 +2,13 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: Helvetica;
+	font-family: Brush King;
 	scroll-behavior: smooth;
 }
 
 header {
-	background: #ff16b1;
-	color: #eaeaea;
+	background: #800080;
+	color: #8359A3;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -107,7 +107,7 @@ a {
 }
 
 .parallax {
-	background-image: url('assets/foto/patrick_2.jpg');
+	background-image: url('assets/foto/latarbima1.jpg');
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
