@@ -106,8 +106,8 @@ a {
         }
 
 .gambar-ganti:hover {
-	        width: 100%;
-                height: auto;
+	        width: 360px;
+                height: 360px;
 	        object-fit: contain;
                 background-image: url('assets/foto/fotodiri.jpg');
 }
