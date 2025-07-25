@@ -103,7 +103,6 @@ a {
 .gambar-ganti {
   width: auto;
   height: auto;
-  padding: 10px;
   background-image: url('assets/foto/fotogweh.jpeg');
   background-size: cover;
   transition: background-image 0.3s ease;
@@ -112,7 +111,6 @@ a {
 .gambar-ganti:hover {
   width: auto;
   height: auto;
-  padding: 10px;
   background-image: url('assets/foto/fotodiri.jpg');
 }
 
