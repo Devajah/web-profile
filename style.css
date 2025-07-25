@@ -100,27 +100,6 @@ a {
 	font-weight: bolder;
 }
 
-.gambar-ganti {
-  width: 100%;
-  height: 100%;
-  padding: 500px;
-  max-height: 500px;
-  max-width: 500px;
-  background-image: url('assets/foto/fotogweh.jpeg');
-  background-size: cover;
-  transition: background-image 0.3s ease;
-}
-
-.gambar-ganti:hover {
-  width: 100%;
-  height: 100%;
-  padding: 500px;
-  max-height: 500px;
-  max-width: 500px;
-  background-image: url('assets/foto/fotodiri.jpg');
-}
-
-}
 .parallax {
 	background-image: url('assets/foto/latarbima1.jpg');
 	background-attachment: fixed;
@@ -204,6 +183,20 @@ footer {
 	
 	.intro {
 		margin-top: 20px;
+	}
+
+	.gambar-ganti {
+                width: 100%;
+                height: auto;
+                padding: 10px;
+                max-height: 500px;
+                max-width: 500px;
+                background-image: url('assets/foto/fotogweh.jpeg');
+                transition: background-image 0.3s ease;
+        }
+
+        .gambar-ganti:hover {
+                background-image: url('assets/foto/fotodiri.jpg');
 	}
 	
 	nav {
