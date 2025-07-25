@@ -100,17 +100,31 @@ a {
 	font-weight: bolder;
 }
 
-.img-foto {
-	width: 100%;
-	height: auto;
-	padding: 10px;
-	max-width: 500px;
-	background-image: url('fotogweh.jpeg');
-	transition: background-image 0.3s ease;
+.image-original, .image-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.3s ease; /* Efek transisi */
 }
 
-.img-foto:hover {
-  background-image: url('fotopas.jpeg');
+.image-original {
+  opacity: 1;
+}
+
+.image-hover {
+  opacity: 0;
+}
+
+.image-container:hover .image-original {
+  opacity: 0;
+}
+
+.container:hover .image-hover {
+  opacity: 1;
+}
+
 }
 .parallax {
 	background-image: url('assets/foto/latarbima1.jpg');
@@ -198,8 +212,6 @@ footer {
 		margin-top: 20px;
 	}
 	
-	.img-foto {
-		padding: 0;
 	}
 	
 	nav {
