@@ -89,8 +89,6 @@ a {
 	text-align: center;
 }
 
-.foto1:hover {
-	transform:
 }
 .title {
 	font-size: 24px;
@@ -109,6 +107,9 @@ a {
 	max-width: 500px;
 }
 
+.img-foto:hover {
+  background-image: url('fotopas.jpeg');
+}
 .parallax {
 	background-image: url('assets/foto/latarbima1.jpg');
 	background-attachment: fixed;
