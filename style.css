@@ -105,7 +105,7 @@ a {
 	height: auto;
 	padding: 10px;
 	max-width: 500px;
-	background-image: url('fotogweh.jpg');
+	background-image: url('fotogweh.jpeg');
 	transition: background-image 0.3s ease;
 }
 
