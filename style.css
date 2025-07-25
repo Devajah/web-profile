@@ -89,6 +89,20 @@ a {
 	text-align: center;
 }
 
+.gambar-ganti {
+                width: 100%;
+                height: auto;
+                padding: 10px;
+                max-height: 500px;
+                max-width: 500px;
+                background-image: url('assets/foto/fotogweh.jpeg');
+                transition: background-image 0.3s ease;
+        }
+
+.gambar-ganti:hover {
+                background-image: url('assets/foto/fotodiri.jpg');
+	}
+
 }
 .title {
 	font-size: 24px;
@@ -186,20 +200,6 @@ footer {
 		margin-top: 20px;
 	}
 
-	.gambar-ganti {
-                width: 100%;
-                height: auto;
-                padding: 10px;
-                max-height: 500px;
-                max-width: 500px;
-                background-image: url('assets/foto/fotogweh.jpeg');
-                transition: background-image 0.3s ease;
-        }
-
-        .gambar-ganti:hover {
-                background-image: url('assets/foto/fotodiri.jpg');
-	}
-	
 	nav {
 		position: fixed;
 		bottom: 0;
