@@ -78,7 +78,6 @@ a {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 70px 0;
-	object-fit: contain;
 }
 
 .intro {
@@ -104,13 +103,12 @@ a {
                 transition: background-image 0.3s ease;
 	        width: 295px;
                 height: 294px;
-	        object-fit: contain;
         }
 
 .gambar-ganti:hover {
                 background-image: url('assets/foto/fotodiri.jpg');
-	        width: 360px;
-                height: 360px;
+	        width: 240px;
+                height: 240px;
 }
 
 .parallax {
