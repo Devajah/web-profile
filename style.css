@@ -85,7 +85,6 @@ a {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	gap: 10px;
 	text-align: center;
 }
 
@@ -204,7 +203,7 @@ footer {
 	}
 	
 	.gambar-ganti {
-		padding: 100px;
+		padding: 0;
 	}
 	
 	nav {
