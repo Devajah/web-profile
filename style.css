@@ -101,12 +101,16 @@ a {
 .gambar-ganti {
                 width: 295px;
                 height: 294px;
+	        object-fit: contain;
                 background-image: url('assets/foto/fotogweh.jpeg');
                 transition: background-image 0.3s ease;
         }
 
 .gambar-ganti:hover {
                 background-image: url('assets/foto/fotodiri.jpg');
+	        width: 360px;
+                height: 360px;
+	        object-fit: contain;
 }
 
 .parallax {
