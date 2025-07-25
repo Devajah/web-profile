@@ -104,7 +104,6 @@ a {
   width: auto;
   height: auto;
   padding: 10px;
-  max-width: 500px;
   background-image: url('assets/foto/fotogweh.jpeg');
   background-size: cover;
   transition: background-image 0.3s ease;
@@ -114,7 +113,6 @@ a {
   width: auto;
   height: auto;
   padding: 10px;
-  max-width: 500px;
   background-image: url('assets/foto/fotodiri.jpg');
 }
 
