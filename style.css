@@ -196,6 +196,7 @@ footer {
 	}
 	
 	.gambar-ganti {
+	        object-fit: contain;
 		padding: 0;
 	}
 	
