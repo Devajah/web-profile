@@ -103,7 +103,7 @@ a {
 .gambar-ganti {
   width: 100%;
   height: 100%;
-  padding: 100px;
+  padding: auto;
   max-height: 500px;
   max-width: 500px;
   background-image: url('assets/foto/fotogweh.jpeg');
@@ -114,7 +114,7 @@ a {
 .gambar-ganti:hover {
   width: 100%;
   height: 100%;
-  padding: 100px;
+  padding: auto;
   max-height: 500px;
   max-width: 500px;
   background-image: url('assets/foto/fotodiri.jpg');
