@@ -103,7 +103,7 @@ a {
 .gambar-ganti {
                 width: 100%;
                 height: auto;
-                padding: 200px;
+                padding: 100px;
                 max-width: 500px;
                 background-image: url('assets/foto/fotogweh.jpeg');
                 transition: background-image 0.3s ease;
