@@ -100,29 +100,18 @@ a {
 	font-weight: bolder;
 }
 
-.image-original, .image-hover {
-  position: absolute;
-  top: 0;
-  left: 0;
+.gambar-ganti {
   width: 100%;
-  height: 100%;
-  transition: opacity 0.3s ease; /* Efek transisi */
+  height: auto;
+  padding: 10px;
+  max-width: 500px;
+  background-image: url('assets/foto/fotogweh.jpeg');
+  background-size: cover;
+  transition: background-image 0.3s ease;
 }
 
-.image-original {
-  opacity: 1;
-}
-
-.image-hover {
-  opacity: 0;
-}
-
-.image-container:hover .image-original {
-  opacity: 0;
-}
-
-.container:hover .image-hover {
-  opacity: 1;
+.gambar-ganti:hover {
+  background-image: url('assets/foto/fotopas.jpeg');
 }
 
 }
@@ -210,8 +199,6 @@ footer {
 	
 	.intro {
 		margin-top: 20px;
-	}
-	
 	}
 	
 	nav {
